@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Account"
+        app:icon="@drawable/ic_account_circle">
+
+        <Preference
+            android:key="user_email"
+            android:title="Email"
+            android:summary="user_email"
+            />
+
+        <Preference
+            android:key="reset_password"
+            android:title="Password"
+            android:summary="Click to change password with a link"
+            />
+
+        <Preference
+            android:key="logout"
+            android:title="Logout"
+            android:summary="Click to logout"
+            />
+        <Preference
+            android:key="Clear_shared"
+            android:title="Clear step counter"
+            android:summary="Click to set step to 0"
+            />
+    </PreferenceCategory>
+
+
+    <!--<PreferenceCategory
+        android:title="Notifications"
+        app:icon="@drawable/ic_notification">
+
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Enable notifications"
+        />
+    </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:key="help_category"
+        android:icon="@drawable/ic_help"
+        android:title="Help">
+
+        <Preference
+            android:key="feedback"
+            android:title="Contact us"
+            android:summary="Report suggest new features or ask us for help">
+        </Preference>
+
+        <Preference
+            android:key="delete_pet"
+            android:title="Delete pet"
+            android:summary="Delete pet and any data"/>
+
+        <Preference
+            android:key="info"
+            android:title="Info"
+            android:summary="About us"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

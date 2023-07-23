@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pet">
+
+    <FrameLayout
+        android:id="@+id/fl_pet_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <ImageView
+            android:id="@+id/pet_picture"
+            android:layout_width="242dp"
+            android:layout_height="242dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/countor_image_view"
+            android:clipToOutline="true"
+            android:contentDescription="@string/picture_pet"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_picture"
+            android:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="12dp"
+            android:backgroundTint="@color/Green"
+            android:src="@drawable/ic_camera"
+            android:tint="@color/black"
+            android:visibility="invisible"
+            app:fabSize="mini" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fl_pet_fragment"
+        android:layout_margin="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/countor_signuppet"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/tv_pet_name"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/countor_signuppet"
+                android:backgroundTint="@color/Green"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/pet_name"
+                android:textColor="@color/white_ghost"
+                android:textSize="40sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pet_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:background="@drawable/radius_bg"
+        android:elevation="10dp"
+        android:paddingTop="20dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/relative">
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_add"
+        android:visibility="invisible"
+        app:backgroundTint="#4CAF50"
+        tools:ignore="ImageContrastCheck"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:fabSize="mini"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_add"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fab"
+        app:layout_constraintEnd_toEndOf="@+id/fab"
+        app:layout_constraintStart_toStartOf="@+id/fab"
+        app:backgroundTint="@color/white"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:fabSize="mini"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_edit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fab_add"
+        app:layout_constraintEnd_toEndOf="@+id/fab_add"
+        app:layout_constraintStart_toStartOf="@+id/fab_add"
+        app:backgroundTint="@color/white"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:fabSize="mini"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_camera"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fab_edit"
+        app:layout_constraintEnd_toEndOf="@+id/fab_edit"
+        app:layout_constraintStart_toStartOf="@+id/fab_edit"
+        app:backgroundTint="@color/white"/> /-->
+
+</RelativeLayout>

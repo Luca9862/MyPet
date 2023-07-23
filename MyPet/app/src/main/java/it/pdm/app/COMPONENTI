@@ -1,0 +1,48 @@
+---COMPONENTI---
+PACKAGE:
+- authentication
+    .LoginActivity
+    .RegisterActivity
+
+-data
+    .FirebaseDBHelper
+
+-home
+    .EmergencyFragment
+    .Home
+    .SplashScreenActivity
+
+- medpet
+    .MedFragment
+    .MedicinesFragment
+    .VaccinationFragment
+    .VaccineAdapter
+    .VaccinePopUp
+    .VisitsFragment
+
+- Notes
+    .FragmentAddNotes
+    .FragmentPopUpNotes
+    .Note
+    .NotesFragment
+    .ToDoAdapter
+
+- petFragment
+    .EditPetActivity
+    .PetFragment
+    .PetIdentityCardFragment
+    .PetInformationFragment
+    .RegisterPetActivity
+
+- pets
+    .Medicines
+    .MyPet
+    .Vaccine
+    .Visit
+
+- stepCounter
+    .StepCounterFragment
+    .StepService
+
+Nel package it.pdm.app rimane il modulo della MainActivity e l'oggetto MySingleton
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/petFragment"
+        android:title="Pet"
+        android:icon="@drawable/ic_pet"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/house"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:icon="@drawable/ic_shop"
+        android:iconTint="@color/black"/>
+</menu>

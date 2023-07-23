@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_0">0</string>
+    <string name="avvia">AVVIA</string>
+    <string name="termina">TERMINA</string>
+    <string name="sign_up_your_pet">SIGN UP YOUR PET</string>
+    <string name="name_pet">Name</string>
+    <string name="birthday_g_mm_aaaa">Birthday [G/MM/AAAA]</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="chip_number">Chip Number</string>
+    <string name="gender_pet">Gender</string>
+    <string name="breed">Breed</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">Log in</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="picture_pet">picture_pet</string>
+    <string name="pet_name">pet_name</string>
+    <string name="ricorda_qui_i_tuoi_impegni">Ricorda qui i tuoi impegni...</string>
+    <string name="aggiungi">AGGIUNGI</string>
+    <string name="vaccinations">Vaccinations</string>
+    <string name="medicines">Medicines</string>
+    <string name="visits">Visits</string>
+    <string name="inserisci_il_testo">Inserisci il testo...</string>
+    <string name="vaccines">Vaccines</string>
+    <string name="back">Back</string>
+    <string name="_112">112</string>
+    <string name="data_vaccinazione">DATA VACCINAZIONE</string>
+    <string name="date_recall">DATE RECALL</string>
+    <string name="item_2">Item 2</string>
+    <string name="date_2">date_2</string>
+    <string name="date_1">Date 1</string>
+    <string name="notes">Notes</string>
+    <string name="paw_counter">Paw counter</string>
+    <string name="edit_pet">Edit pet</string>
+    <string name="pet_identity_card">PET IDENTITY CARD</string>
+    <string name="name">Name</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

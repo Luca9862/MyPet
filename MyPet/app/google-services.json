@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851209984831",
+    "firebase_url": "https://my-pet-application-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "my-pet-application",
+    "storage_bucket": "my-pet-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851209984831:android:c183945bf1e0073768d18a",
+        "android_client_info": {
+          "package_name": "it.pdm.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851209984831-5pkbr725vibkhb12sajrnssorl4qpj05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkm2Dm8GhyC2QBLuywJePLOOlIv-IJSZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851209984831-5pkbr725vibkhb12sajrnssorl4qpj05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="home.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_emergencyNumbersFragment"
+            app:destination="@id/emergencyNumbersFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_visitsFragment"
+            app:destination="@id/visitsFragment" />
+        <!-- Label che cambia nella toolbar di ogni fragment -->
+    </fragment>
+    <fragment
+        android:id="@+id/petFragment"
+        android:name="it.pdm.app.Pet"
+        android:label="fragment_pet"
+        tools:layout="@layout/fragment_pet" >
+        <action
+            android:id="@+id/action_petFragment_to_petIdentityCardFragment"
+            app:destination="@id/petIdentityCardFragment4" />
+        <action
+            android:id="@+id/action_petFragment_to_vaccinationFragment"
+            app:destination="@id/vaccinationFragment" />
+        <action
+            android:id="@+id/action_petFragment_to_visitsFragment"
+            app:destination="@id/visitsFragment" />
+        <action
+            android:id="@+id/action_petFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_petFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment><!-- Label che cambia nella toolbar di ogni fragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="setting.Settings"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_emergencyNumbersFragment"
+            app:destination="@id/emergencyNumbersFragment" />
+    </fragment><!-- Label che cambia nella toolbar di ogni fragment -->
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="stepCounter.StepCounterFragment"
+        android:label="fragment"
+        tools:layout="@layout/fragment_step_counter" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="Notes.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_notesFragment_to_fragmentAddNotes"
+            app:destination="@id/fragmentAddNotes" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAddNotes"
+        android:name="Notes.FragmentAddNotes"
+        android:label="fragment_add_notes"
+        tools:layout="@layout/fragment_add_notes" >
+        <action
+            android:id="@+id/action_fragmentAddNotes_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vaccinationFragment"
+        android:name="medpet.VaccinationFragment"
+        android:label="fragment_vaccination"
+        tools:layout="@layout/fragment_vaccination" />
+    <fragment
+        android:id="@+id/visitsFragment"
+        android:name="medpet.VisitsFragment"
+        android:label="fragment_visits"
+        tools:layout="@layout/fragment_visits" />
+    <fragment
+        android:id="@+id/petIdentityCardFragment4"
+        android:name="petFragment.PetIdentityCardFragment"
+        android:label="fragment_pet_identity_card"
+        tools:layout="@layout/fragment_pet_identity_card" />
+    <fragment
+        android:id="@+id/emergencyNumbersFragment"
+        android:name="home.EmergencyFragment"
+        android:label="fragment_emergency_numbers"
+        tools:layout="@layout/fragment_emergency" >
+        <action
+            android:id="@+id/action_emergencyNumbersFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/petInformationFragment"
+        android:name="petFragment.PetInformationFragment"
+        android:label="fragment_pet_information"
+        tools:layout="@layout/fragment_pet_information" >
+        <action
+            android:id="@+id/action_petInformationFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment><!-- Label che cambia nella toolbar di ogni fragment -->
+</navigation>
