@@ -11,9 +11,21 @@ Pedometer: Monitor your pet's activity levels with the integrated pedometer feat
 
 ## Usage
 1. Open MyPet on your Android device.
+<figure>
+  <img src= "./readme_screen/screen_1.jpg" width="50%" height="50%">
+</figure>
 
 2. Register your pet by providing the necessary information.
+<figure>
+  <img src= "./readme_screen/screen_2.jpg" width="50%" height="50%">
+</figure>
 
 3. Explore the medical records section to monitor visits, vaccinations, and medications.
+<figure>
+  <img src= "./readme_screen/screen_3.jpg" width="50%" height="50%">
+</figure>
 
 4. Use the built-in pedometer to track your pet's daily activity.
+<figure>
+  <img src= "./readme_screen/screen_4.jpg" width="50%" height="50%">
+</figure>
