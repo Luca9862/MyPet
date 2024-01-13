@@ -22,16 +22,12 @@ Pedometer: Monitor your pet's activity levels with the integrated pedometer feat
   <img src= "./readme_screen/screen_1.jpg" width="50%" height="50%">
 </figure>
 
+### Home
 <figure>
   <img src= "./readme_screen/screen_2.jpg" width="50%" height="50%">
-  <figcaption>
-    Home
-  </figcaption>
 </figure>
 
+### Settings:
 <figure>
   <img src= "./readme_screen/screen_3.jpg" width="50%" height="50%">
-  <figcaption>
-    Settings
-  </figcaption>
 </figure>
