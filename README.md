@@ -1,5 +1,7 @@
 # MyPet
-MyPet is an Android application, developed in Kotlin, designed to help pet owners record essential information about their pets. This app allows users to monitor medical visits, keep track of vaccinations and medications, and even includes a built-in pedometer.
+MyPet is a university project developed at the University of Insubria as part of a mobile development course, utilizing Kotlin.
+
+This app allows users to monitor medical visits, keep track of vaccinations and medications, and even includes a built-in pedometer.
 
 ## Features
 Pet Registration: Easily register your pets by providing details such as name, breed, and age.
